@@ -1,0 +1,146 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+/* NAVIGATION */
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default {
+  background-color: #282c37;
+/*   padding-top: 1rem; */
+}
+
+/* .navbar-brand {
+  font-size: 32px;
+} */
+@media (min-width: 768px) {
+  .navbar-brand {
+    line-height: 70px;
+    font-size: 32px;
+  }
+}
+
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  line-height: 70px;
+/*   font-size: 16px; */
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #f9690e;
+}
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    line-height: 70px;
+  }
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: inherit;
+}
+/* /NAVIGATION */
+
+
+/* PORTFOLIO */
+.portfolio__container {
+  background-color: #d9e1e8;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  .portfolio__container {
+    padding-top: 30px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .thumbnail {
+    margin-bottom: 30px;
+  }
+}
+
+/* /PORTFOLIO */
+
+
+/* ABOUT */
+.about__container {
+  padding-top: 30px;
+}
+
+.about__column {
+  margin-bottom: 30px;
+}
+
+.about__container h4 {
+  margin-top: 0;
+}
+/* @media (min-width: 768px) {
+  .about__container h4 {
+    margin-top: 30px;
+  }
+} */
+
+.about__container p {
+  margin-bottom: 0;
+}
+/* @media (min-width: 768px) {
+  .about__container p {
+    margin-bottom: 30px;
+  }
+} */
+/* /ABOUT */
+
+
+/* CONTACT */
+.contact__container {
+  background-color: #282c37;
+  color: #fff;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+/* @media (min-width: 768px) {
+  .contact__container {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+} */
+
+@media (min-width: 970px) {
+  .contact__social {
+    text-align: left;
+  }
+}
+
+.contact__social p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: #f9690e;
+}
+
+.contact__social .fa {
+  color: #d9e1e8;
+  margin-right: 3rem;
+}
+
+.contact__social .fa:hover {
+  color: #f9690e;
+}
+/* /CONTACT */
